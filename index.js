@@ -37,7 +37,7 @@ var http = {
 		}
 		if(!text){console.log("Object cannot be empty");return};
 		//准备提交配置
-		http.open("POST",url,true);
+		http.open("POST", url, true);
 		//配置包头
 		http.setRequestHeader("Content-type","application/x-www-form-urlencoded");
 		//发送
